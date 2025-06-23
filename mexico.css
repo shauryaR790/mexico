@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F0B8E;
+    height: 100px;
+    color: white;
+   
+}
+main{
+    overflow-x: hidden;
+}
+.leftnav{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+.leftnav h3:nth-child(1){
+    position: relative;
+    left: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.leftnav h3:nth-child(2){
+    position: relative;
+    left: 100px;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.centernav h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.rightnav{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+
+.rightnav h3:nth-child(2){
+    position: relative;
+    right: 70px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.rightnav h3:nth-child(1){
+    position: relative;
+    right: 120px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.page1{
+    max-height: calc(100vh - 100px);
+    background-color: #FFEA00;
+}
+.centertext h1{
+    color:#3F0B8E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.centertext .belowtext{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.ordernow{
+    padding:15px 25px;
+    border: 3px solid #3F0B8E;
+    border-radius: 40px;
+    background-color: #FF5DDC;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    position: relative;;
+    left: 600px;
+}
+.Menu{
+    padding:15px 35px;
+    border: 3px solid #3F0B8E;
+    border-radius: 40px;
+    background-color: #ffff;
+    color: #FF5DDC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    position: relative;
+    left: 610px;
+}
+.centertext h4{
+    text-align: center;
+    color: #3F0B8E;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.taco1{
+    border-radius: 15px;
+    width: 200px;
+    position: relative;
+    top: -300px;
+    left: 30px;
+}
+.taco2{
+   border-radius: 15px;
+    width: 200px;
+    position: relative;
+    top: -550px;
+    left: 1100px; 
+}
+.taco3{
+    border-radius: 15px;
+    width: 200px;
+    position: relative;
+    top: -160px;
+    left: 600px;
+}
+.page2{
+    height: 10vh;
+    background-color: #ff5ddc;
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
+}
+.gola1{
+    top: 25px;
+    left: 55px;
+    height: 25px;
+    width: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    border-radius: 5px;
+    background-color: #3F0B8E;
+}
+.page3{
+    height: 164.5vh;
+    background-color: #3F0B8E;
+    
+}
+.right{
+    position: relative;
+    top: -850px;
+    left: 950px;
+    color: #FFEA00;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.taco4{
+    height: 1200px;
+}
+.taco5{
+    height: 1200px;
+    position: relative;
+    right: -720px;
+}
+.right h1{
+    font-size: 7vw;
+}
+.right .bottom{
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+.right h4{
+    font-size: 1.5vw;
+    text-align: center;
+    position: relative;
+    left: -500px;
+}
+.menubtn{
+    padding:15px 35px;
+    border: 3px solid #FFEA00;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #FFEA00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    position: relative;
+    top: 50px;
+    left: 150px;
+
+}
+.page4{
+    height: 10vh;
+    background-color: #FFEA00;
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
+}
+.gola2{
+    top: 25px;
+    left: 55px;
+    height: 25px;
+    width: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    border-radius: 5px;
+    background-color: #3F0B8E;
+}
